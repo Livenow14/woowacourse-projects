@@ -12,8 +12,6 @@
 
 ## **♥️ Level 0: 프리코스**
 
----
-
 ### **기간**
 
 - `2020.11.25 – 2020.12.16`
@@ -32,11 +30,11 @@
 - [[Java] VO(Value Object)란?](https://velog.io/@livenow/Java-VOValue-Object%EB%9E%80)
 - [[우아한 테크코스 3기] 프리코스 회고](https://velog.io/@livenow/%EC%9A%B0%EC%95%84%ED%95%9C-%ED%85%8C%ED%81%AC%EC%BD%94%EC%8A%A4-3%EA%B8%B0-%ED%94%84%EB%A6%AC%EC%BD%94%EC%8A%A4-%ED%9A%8C%EA%B3%A0)
 
+---
+
 <br>
 
 ## **❤️ Level 0.9: 프리코스**
-
----
 
 ### **기간**
 
@@ -52,11 +50,11 @@
 
 - [[우아한 테크코스 3기] 최종 테스트 및 합격 후기](https://velog.io/@livenow/%EC%9A%B0%EC%95%84%ED%95%9C-%ED%85%8C%ED%81%AC%EC%BD%94%EC%8A%A4-3%EA%B8%B0-%EC%B5%9C%EC%A2%85-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%B0%8F-%ED%95%A9%EA%B2%A9-%ED%9B%84%EA%B8%B0)
 
+---
+
 <br>
 
 ## **🧡 Level 1: 단위 테스트, TDD, 상속, 인터페이스, FP, OOP, 웹, DB**
-
----
 
 ### **기간**
 
@@ -103,12 +101,60 @@
 - [[우아한테크코스 3기] 레벨 1 - 5주차 회고](https://livenow14.tistory.com/35)
 - [[우아한테크코스 3기] 레벨 1 - 6주차 회고](https://livenow14.tistory.com/38)
 - [[우아한테크코스 3기] 레벨 1 - 7주차 회고](https://livenow14.tistory.com/41)
+- [[우아한테크코스 3기] 레벨 1 - 기록](https://livenow14.tistory.com/category/%EC%9D%BC%EA%B8%B0/%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%BD%94%EC%8A%A4%203%EA%B8%B0)
+
+---
+
+<br>
+
+## 💛 **Level 2: 스프링 입문, 배포 인프라, 웹 프로젝트**
+
+### **기간**
+
+- `2021.04.13 – 2021.06.04`
+
+### **학습 목표**
+
+- 레벨1에서 구현한 체스 애플리케이션 경험을 토대로 스프링 프레임워크를 활용하여 구현하는 경험을 한다.
+- Linux 환경에 애플리케이션을 배포하는 경험을 한다.
+- 네트워크 통신 과정을 이해해본다.
+- 로그를 남기고 서버의 상태를 확인하는 방법을 익힌다.
+- 스프링 프레임워크의 기본적인 개념을 이해하기 위해 지하철 노선도 정보를 관리하고 경로조회, 즐겨찾기, 요금계산 등 기능을 제공하는 서비스를 구현
+
+### **진행 미션**
+
+|Mission |Repository |Pull Request |Pair | Reviewer |
+|:------:|:---------:|:-----------:|:-----------:|:-----------:|
+|스프링 입문 - 체스 |[jwp-chess/step1](https://github.com/Livenow14/jwp-chess/tree/step1) |[Pull Request](https://github.com/woowacourse/jwp-chess/pull/263) |[제이온](https://github.com/pjy1368) |[게이츠](https://github.com/serverwizard) |
+| |[jwp-chess/step2](https://github.com/Livenow14/jwp-chess/tree/step2) |[Pull Request](https://github.com/woowacourse/jwp-chess/pull/309) | |[게이츠](https://github.com/serverwizard) |
+|스프링 - 지하철 노선도 관리 |[atdd-subway-map/step1](https://github.com/Livenow14/atdd-subway-map/tree/step1) |[Pull Request](https://github.com/woowacourse/atdd-subway-map/pull/87) [](https://github.com/woowacourse/jwp-chess/pull/263)|[아마찌](https://github.com/NewWisdom) |[김고래](https://github.com/ep1stas1s) |
+| |[atdd-subway-map/step2](https://github.com/Livenow14/atdd-subway-map/tree/step2) |[Pull Request](https://github.com/woowacourse/atdd-subway-map/pull/132) | |[김고래](https://github.com/ep1stas1s) |
+|스프링 - 경로 조회/ 로그인 |[atdd-subway-path/step1](https://github.com/Livenow14/atdd-subway-path/tree/step1) |[Pull Request](https://github.com/woowacourse/atdd-subway-path/pull/100) |[알리](https://github.com/jh8579) |[데이브](https://github.com/dave915) |
+| |[atdd-subway-path/step2](https://github.com/Livenow14/atdd-subway-path/tree/step2) |[Pull Request](https://github.com/woowacourse/atdd-subway-path/pull/151) | |[데이브](https://github.com/dave915) |
+|스프링 -협업 미션 |[atdd-subway-fare/step1](https://github.com/Livenow14/atdd-subway-fare/tree/step1) |[Pull Request](https://github.com/woowacourse/atdd-subway-fare/pull/33) |[우기](https://github.com/jujubebat), [포츈](https://github.com/unluckyjung) |[제이](https://github.com/JunHoPark93) | 
+
+### **블로그 포스팅**
+
+- [[Network] http의 특징과 각각에 대해 간략히 설명해 주세요](https://livenow14.tistory.com/45)
+- [[Database] Inner Join vs Outer Join](https://livenow14.tistory.com/46)
+- [[Java] Call by value?](https://livenow14.tistory.com/47)
+- [[Network] DDos공격에 대응하는 법](https://livenow14.tistory.com/48)
+- [[AWS] EC2의 스토리지 용량 재부팅 없이 늘리기](https://livenow14.tistory.com/49)
+- [[AWS] Ubuntu Docker 설치](https://livenow14.tistory.com/50)
+- [[SpringBoot] HttpSession 대신 HandlerMethodArgumentResolver 사용하기](https://livenow14.tistory.com/51)
+- [[SpringBoot] @SpringBootApplication @SpringBootConfiguration, @EnableAutoConfiguration](https://livenow14.tistory.com/52)
+- [[Spring] 애플리케이션 컨텍스트](https://livenow14.tistory.com/53)
+- [[Network] OSI 7계층이란?](https://livenow14.tistory.com/54)
+- [[SpringBoot] Local-Memory 캐시를 사용해보자](https://livenow14.tistory.com/56)
+- [[Network] TCP 연결과정에 대해 알아보자](https://livenow14.tistory.com/57)
+- [[Spring] 쓰레드 관점에서 본 Spring MVC HTTP 요청과정](https://livenow14.tistory.com/59)
+- [[우아한테크코스 3기] 레벨 2 - 성장](https://livenow14.tistory.com/58)
+
+---
 
 <br>
 
 ## **📜 글쓰기 코스**
-
----
 
 ### **학습목표**
 
@@ -118,4 +164,7 @@
 
 |Level |Topic |Repository |Pull Request |Reviewer |
 |:------:|:---------:|:-----------:|:-----------:|:-----------:|
-|기록 |🖋 우아한테크코스 한 달 생활기  |[woowa-writing-3](https://github.com/Livenow14/woowa-writing-3/tree/livenow14)  |[Pull Request](https://github.com/woowacourse/woowa-writing-3/pull/31) |[씨유](https://github.com/woowahanCU) |
+|기록 |🖋 우아한테크코스 한 달 생활기  |[woowa-writing-3](https://github.com/Livenow14/woowa-writing-3/tree/livenow14/%EB%A0%88%EB%B2%A81-%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%BD%94%EC%8A%A4%20%ED%95%9C%20%EB%8B%AC%20%EC%83%9D%ED%99%9C%EA%B8%B0)  |[Pull Request](https://github.com/woowacourse/woowa-writing-3/pull/31) |[씨유](https://github.com/woowahanCU) |
+|성장 |🖋 우테코에서 찾은 나만의 효과적인 공부법  |[woowa-writing-3](https://github.com/Livenow14/woowa-writing-3/tree/livenow14/%EB%A0%88%EB%B2%A82-%EC%9A%B0%ED%85%8C%EC%BD%94%EC%97%90%EC%84%9C%20%EC%B0%BE%EC%9D%80%20%EB%82%98%EB%A7%8C%EC%9D%98%20%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8%20%EA%B3%B5%EB%B6%80%EB%B2%95)  |[Pull Request](https://github.com/woowacourse/woowa-writing-3/pull/99) |[준](https://github.com/imakerjun) |
+
+---
