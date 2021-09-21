@@ -149,6 +149,72 @@
 - [[Network] TCP 연결과정에 대해 알아보자](https://livenow14.tistory.com/57)
 - [[Spring] 쓰레드 관점에서 본 Spring MVC HTTP 요청과정](https://livenow14.tistory.com/59)
 - [[우아한테크코스 3기] 레벨 2 - 성장](https://livenow14.tistory.com/58)
+- [[Spring]서블릿 Filter를 사용해보자](https://livenow14.tistory.com/60)
+
+---
+
+<br>
+
+## 💚  **Level 3: 프로젝트(JPA, 프로젝트 기획, 개발 문화, GIT 브렌치)**
+
+### **기간**
+
+- `2021.06.22 – 2021.08.13`
+
+### **학습 목표(팀 문화)**
+
+- Spring Data JPA를 사용하며 이전 미션에 JDBC로 작성된 코드를 리펙토링한다.
+- JPA를 활용하여 프로젝트에 적용해본다.
+- 프로젝트를 기획하며 개발 계획, 문화를 팀크루들과 빌드업 한다.
+- 사용한 기술을 문서화한다.
+- 100번 물어보면 100번 답해준다.
+
+### **진행 미션(PR없이 개인적으로 진행 후 제이슨께 리뷰요청)**
+
+|Mission |Repository |리뷰어 |
+|:------:|:---------:|:---------:|
+|JPA리팩터링 |[jwp-qna](https://github.com/Livenow14/jwp-qna/tree/feat/mission) |[제이슨](https://github.com/wotjd243) |
+
+### **진행 프로젝트**
+
+백신 중앙 정보원(백중원) - 깃허브
+
+[https://github.com/woowacourse-teams/2021-cvi](https://github.com/woowacourse-teams/2021-cvi)
+
+백신 중앙 정보원(백중원) - 사이트
+
+[https://vaccine-review.com/](https://vaccine-review.com/)
+
+### **블로그 포스팅**
+
+- [[Spring] 스프링 Interceptor](https://livenow14.tistory.com/61)
+- [[Docker] 도커란?](https://livenow14.tistory.com/62)
+- [[Logging] SLF4J란?](https://livenow14.tistory.com/63)
+- [[Logging] Logback이란?](https://livenow14.tistory.com/64)
+- [[DB] NoSql이 무엇인지, 기존 RDBMS와의 차별점은 무엇인지 설명해주세요](https://livenow14.tistory.com/65)
+- [[Spring] Bean 생명주기 콜백](https://livenow14.tistory.com/66)
+- [[OS]멀티 프로세스와 멀티 스레드의 차이는 무엇일까?](https://livenow14.tistory.com/67)
+- [[Java] Json Data를 리스트로 변환하자 with Jackson](https://livenow14.tistory.com/68)
+- [[AWS] EC2 인스턴스 생성하기](https://livenow14.tistory.com/69)
+- [[DB] 하이버네이트(Hibernate)란?](https://livenow14.tistory.com/70)
+
+---
+
+ <br>
+
+## 테코톡
+
+`10분 테코톡`이란 우아한테크코스 과정을 진행하며 크루(수강생)들이 동료들과 학습한 내용을 공유하고 이야기하는 시간이에요.
+서로가 성장하기 위해 지식을 나누고 대화하며 생각해보는 시간으로 자기 주도적인 성장을 지향하는 우아한테크코스의 문화 중 하나예요.
+
+- [[10분 테코톡] ☂️ 검프의 Logging(로깅) #1](https://www.youtube.com/watch?v=1MD5xbwznlI&t=660s)
+- [[10분 테코톡] ☂️ 검프의 Logging(로깅) #2](https://www.youtube.com/watch?v=JqZzy7RyudI&list=TLPQMjQwODIwMjGFsDg8sykCjA&index=2)
+
+## 인터뷰
+
+ 누군가를 인터뷰한다는건, 마치 시험을 보는 것과 비슷한 느낌이 들곤합니다. 하지만 함께 공부하고 성장하는 친구를 인터뷰 하는건 어떨까요? 우테코에서 학습하는 크루들의 생각을 좀 더 깊이있게 알아가기 위해 크루가 크루를 인터뷰하는 인터뷰 챌린지예요.
+
+- [[우테코 인터뷰 챌린지] ☂️🧝 검프&손너잘에게 묻다!](https://www.youtube.com/watch?v=bEu4rQrQfmQ&list=PLgXGHBqgT2TvIil7QNcnkTrZHAwCP7ldZ&index=9&t=520s)
 
 ---
 
@@ -166,5 +232,6 @@
 |:------:|:---------:|:-----------:|:-----------:|:-----------:|
 |기록 |🖋 우아한테크코스 한 달 생활기  |[woowa-writing-3](https://github.com/Livenow14/woowa-writing-3/tree/livenow14/%EB%A0%88%EB%B2%A81-%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%BD%94%EC%8A%A4%20%ED%95%9C%20%EB%8B%AC%20%EC%83%9D%ED%99%9C%EA%B8%B0)  |[Pull Request](https://github.com/woowacourse/woowa-writing-3/pull/31) |[씨유](https://github.com/woowahanCU) |
 |성장 |🖋 우테코에서 찾은 나만의 효과적인 공부법  |[woowa-writing-3](https://github.com/Livenow14/woowa-writing-3/tree/livenow14/%EB%A0%88%EB%B2%A82-%EC%9A%B0%ED%85%8C%EC%BD%94%EC%97%90%EC%84%9C%20%EC%B0%BE%EC%9D%80%20%EB%82%98%EB%A7%8C%EC%9D%98%20%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8%20%EA%B3%B5%EB%B6%80%EB%B2%95)  |[Pull Request](https://github.com/woowacourse/woowa-writing-3/pull/99) |[준](https://github.com/imakerjun) |
+|회고 |🖋 팀 프로젝트가 나에게 남긴 것  |[woowa-writing-3](https://github.com/Livenow14/woowa-writing-3/tree/livenow14/%EB%A0%88%EB%B2%A83-%20%ED%8C%80%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B0%80%20%EB%82%98%EC%97%90%EA%B2%8C%20%EB%82%A8%EA%B8%B4%20%EA%B2%83)  |[Pull Request](https://github.com/woowacourse/woowa-writing-3/pull/203) |[포비](https://github.com/pobiconan) |
 
 ---
