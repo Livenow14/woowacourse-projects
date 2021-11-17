@@ -1,6 +1,7 @@
 # **👨🏻‍💻 woowacourse-projects**
 
 > [우아한테크코스](https://woowacourse.github.io/) 3기 백엔드 과정을 진행하며 학습했던 내용들을 정리했어요
+> 
 
 <img src='./image/techcourse_poster_3nd.jpeg' width="450" height="600">
 
@@ -119,7 +120,7 @@
 - Linux 환경에 애플리케이션을 배포하는 경험을 한다.
 - 네트워크 통신 과정을 이해해본다.
 - 로그를 남기고 서버의 상태를 확인하는 방법을 익힌다.
-- 스프링 프레임워크의 기본적인 개념을 이해하기 위해 지하철 노선도 정보를 관리하고 경로조회, 즐겨찾기, 요금계산 등 기능을 제공하는 서비스를 구현
+- 스프링 프레임워크의 기본적인 개념을 이해하기 위해 지하철 노선도 정보를 관리하고 경로조회, 즐겨찾기, 요금계산 등 기능을 제공하는 서비스를 구현한다.
 
 ### **진행 미션**
 
@@ -166,8 +167,9 @@
 - Spring Data JPA를 사용하며 이전 미션에 JDBC로 작성된 코드를 리펙토링한다.
 - JPA를 활용하여 프로젝트에 적용해본다.
 - 프로젝트를 기획하며 개발 계획, 문화를 팀크루들과 빌드업 한다.
-- 사용한 기술을 문서화한다.
-- 100번 물어보면 100번 답해준다.
+- Team CVI 슬로건
+    - 사용한 기술을 문서화한다.
+    - 100번 물어보면 100번 답한다.
 
 ### **진행 미션(PR없이 개인적으로 진행 후 제이슨께 리뷰요청)**
 
@@ -177,11 +179,15 @@
 
 ### **진행 프로젝트**
 
-백신 중앙 정보원(백중원) - 깃허브
+Team CVI - 데모 소개 페이지
+
+[https://sites.google.com/woowahan.com/wooteco-demo-3rd/cvi?authuser=0](https://sites.google.com/woowahan.com/wooteco-demo-3rd/cvi?authuser=0)
+
+Team CVI - 깃허브
 
 [https://github.com/woowacourse-teams/2021-cvi](https://github.com/woowacourse-teams/2021-cvi)
 
-백신 중앙 정보원(백중원) - 사이트
+Team CVI  - 사이트
 
 [https://vaccine-review.com/](https://vaccine-review.com/)
 
@@ -197,20 +203,77 @@
 - [[Java] Json Data를 리스트로 변환하자 with Jackson](https://livenow14.tistory.com/68)
 - [[AWS] EC2 인스턴스 생성하기](https://livenow14.tistory.com/69)
 - [[DB] 하이버네이트(Hibernate)란?](https://livenow14.tistory.com/70)
+- [[우아한테크코스 3기] 레벨 3 - 회고](https://livenow14.tistory.com/75)
 
 ---
 
  <br>
 
-## 테코톡
+## 💜  **Level 4: HTTP서버 구현, MVC 프레임워크 만들기, 안정적인 서비스 만들기, JDBC 라이브러리 구현하기**
+
+### **기간**
+
+- `2021.08.24 – 2021.10.29`
+
+### **학습 목표**
+
+- HTTP, Servlet, Spring Framework에 대한 이해도를 높인다.
+- JDBC를 구현하며 JdbcTemplate에 대한 이해도를 높인다.
+- 레거시 프로젝트를 리팩터링하는 경험을 통해 서비스를 안정적으로 운영하면서 레거시 코드를 리팩터링할 수 있는 역량을 키운다.
+- 동료의 코드를 리뷰하며 협업 능력을 키운다.
+
+### **진행 미션**
+
+| Mission | Repository | Pull Request | 리뷰어 |
+|---|---|---|---|
+| HTTP 서버 구현하기 | [jwp-dashboard-http/step1](https://github.com/Livenow14/jwp-dashboard-http/tree/step1) | [Pull Request](https://github.com/woowacourse/jwp-dashboard-http/pull/7) | [에드](https://github.com/sjpark-dev) |
+|  | [jwp-dashboard-http/step2,3](https://github.com/Livenow14/jwp-dashboard-http/tree/step2) | [Pull Request](https://github.com/woowacourse/jwp-dashboard-http/pull/79) |  |
+| MVC 프레임워크 구현하기 | [jwp-dashboard-mvc/step1](https://github.com/Livenow14/jwp-dashboard-mvc/tree/step1) | [Pull Request](https://github.com/woowacourse/jwp-dashboard-mvc/pull/15) | [루트](https://github.com/Junroot) |
+|  | [jwp-dashboard-mvc/step2,3](https://github.com/Livenow14/jwp-dashboard-http/tree/step2) | [Pull Request](https://github.com/woowacourse/jwp-dashboard-mvc/pull/90) |  |
+| JDBC 라이브러리 구현하기 | [jwp-dashboard-jdbc](https://github.com/Livenow14/jwp-dashboard-jdbc/tree/step1-gump) | [Pull Request](https://github.com/woowacourse/jwp-dashboard-jdbc/pull/26) | [삭정](https://github.com/sakjung) |
+| 조회 성능 개선하기 | [sql-tuning](https://github.com/Livenow14/sql-tuning) | [Pull Request](https://github.com/woowacourse/sql-tuning/pull/6) | [웨지](https://github.com/sihyung92) |
+| 레거시 코드 리팩터링 | [jwp-refactoring/step1](https://github.com/Livenow14/jwp-refactoring/tree/gump-step1) | [Pull Request](https://github.com/woowacourse/jwp-refactoring/pull/143) | [포츈](https://github.com/unluckyjung) |
+
+### 진행 리뷰
+
+| Mission | Pull Request | 리뷰이 |
+|---|---|---|
+| HTTP 서버 구현하기 | [Pull Request](https://github.com/woowacourse/jwp-dashboard-http/pull/37) | [배럴](https://github.com/knae11) |
+|  | [Pull Request](https://github.com/woowacourse/jwp-dashboard-http/pull/84) |  |
+| MVC 프레임워크 구현하기 | [Pull Request](https://github.com/woowacourse/jwp-dashboard-mvc/pull/11) | [나봄](https://github.com/qhals321) |
+|  | [Pull Request](https://github.com/woowacourse/jwp-dashboard-mvc/pull/62) |  |
+| JDBC 라이브러리 구현하기 | [Pull Request](https://github.com/woowacourse/jwp-dashboard-jdbc/pull/18) | [파즈](https://github.com/Be-poz) |
+| 조회 성능 개선하기 | [Pull Request](https://github.com/woowacourse/sql-tuning/pull/27) | [다니](https://github.com/da-nyee) |
+| 레거시 코드 리팩터링 | [Pull Request](https://github.com/woowacourse/jwp-refactoring/pull/131) | [와이비](https://github.com/hybeom0720) |
+
+### **블로그 포스팅**
+
+- [[Docker] —memory 옵션 kernel 예외](https://livenow14.tistory.com/71)
+- [[Java] 해시 함수(Hash Function)란?](https://livenow14.tistory.com/72)
+- [[Java] Java7과 Java8의 특징](https://livenow14.tistory.com/73)
+- [[DB] 정규화란?](https://livenow14.tistory.com/74)
+- [[MYSQL] 한글 별칭(aslias) 예외](https://livenow14.tistory.com/76)
+- [[JUnit5] @ParameterizedTest 애노테이션(반복 테스트) 커스텀 하기](https://livenow14.tistory.com/77)
+- [[HTTPS] 클라이언트와 서버가 HTTPS 프로토콜에서 통신할 때 CA 동작과정](https://livenow14.tistory.com/78)
+- [[SpringBoot] 멀티모듈 구조에서, 다른 모듈의 테스트 클래스 사용하기](https://livenow14.tistory.com/79)
+
+<br>
+
+---
+
+## 💻 테코톡
 
 `10분 테코톡`이란 우아한테크코스 과정을 진행하며 크루(수강생)들이 동료들과 학습한 내용을 공유하고 이야기하는 시간이에요.
 서로가 성장하기 위해 지식을 나누고 대화하며 생각해보는 시간으로 자기 주도적인 성장을 지향하는 우아한테크코스의 문화 중 하나예요.
 
-- [[10분 테코톡] ☂️ 검프의 Logging(로깅) #1](https://www.youtube.com/watch?v=1MD5xbwznlI&t=660s)
+- [[10분 테코톡] ☂️ 검프의 Docker #실습편 3부](https://www.youtube.com/watch?v=tZMFlxCzXJQ&t=808s)
+- [[10분 테코톡] ☂️ 검프의 Docker #실습편 2부](https://www.youtube.com/watch?v=J_8-8ovxYMM&t=1437s)
+- [[10분 테코톡] ☂️ 검프의 Docker #실습편 1부](https://www.youtube.com/watch?v=fUC2OoNYoKc&t=39s)
+- [[10분 테코톡] ☂️ 검프의 Docker #이론편](https://www.youtube.com/watch?v=IiNI6XAYtrs&t=725s)
 - [[10분 테코톡] ☂️ 검프의 Logging(로깅) #2](https://www.youtube.com/watch?v=JqZzy7RyudI&list=TLPQMjQwODIwMjGFsDg8sykCjA&index=2)
+- [[10분 테코톡] ☂️ 검프의 Logging(로깅) #1](https://www.youtube.com/watch?v=1MD5xbwznlI&t=660s)
 
-## 인터뷰
+## 🎤 인터뷰
 
  누군가를 인터뷰한다는건, 마치 시험을 보는 것과 비슷한 느낌이 들곤합니다. 하지만 함께 공부하고 성장하는 친구를 인터뷰 하는건 어떨까요? 우테코에서 학습하는 크루들의 생각을 좀 더 깊이있게 알아가기 위해 크루가 크루를 인터뷰하는 인터뷰 챌린지예요.
 
@@ -233,5 +296,23 @@
 |기록 |🖋 우아한테크코스 한 달 생활기  |[woowa-writing-3](https://github.com/Livenow14/woowa-writing-3/tree/livenow14/%EB%A0%88%EB%B2%A81-%EC%9A%B0%EC%95%84%ED%95%9C%ED%85%8C%ED%81%AC%EC%BD%94%EC%8A%A4%20%ED%95%9C%20%EB%8B%AC%20%EC%83%9D%ED%99%9C%EA%B8%B0)  |[Pull Request](https://github.com/woowacourse/woowa-writing-3/pull/31) |[씨유](https://github.com/woowahanCU) |
 |성장 |🖋 우테코에서 찾은 나만의 효과적인 공부법  |[woowa-writing-3](https://github.com/Livenow14/woowa-writing-3/tree/livenow14/%EB%A0%88%EB%B2%A82-%EC%9A%B0%ED%85%8C%EC%BD%94%EC%97%90%EC%84%9C%20%EC%B0%BE%EC%9D%80%20%EB%82%98%EB%A7%8C%EC%9D%98%20%ED%9A%A8%EA%B3%BC%EC%A0%81%EC%9D%B8%20%EA%B3%B5%EB%B6%80%EB%B2%95)  |[Pull Request](https://github.com/woowacourse/woowa-writing-3/pull/99) |[준](https://github.com/imakerjun) |
 |회고 |🖋 팀 프로젝트가 나에게 남긴 것  |[woowa-writing-3](https://github.com/Livenow14/woowa-writing-3/tree/livenow14/%EB%A0%88%EB%B2%A83-%20%ED%8C%80%20%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EA%B0%80%20%EB%82%98%EC%97%90%EA%B2%8C%20%EB%82%A8%EA%B8%B4%20%EA%B2%83)  |[Pull Request](https://github.com/woowacourse/woowa-writing-3/pull/203) |[포비](https://github.com/pobiconan) |
+|시작 |🖋 내가 꿈꾸는 프로그래머로서의 삶  |[woowa-writing-3](https://github.com/Livenow14/woowa-writing-3/tree/step4/%EB%A0%88%EB%B2%A84-%EB%82%B4%EA%B0%80%20%EA%BF%88%EA%BE%B8%EB%8A%94%20%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EB%A1%9C%EC%84%9C%EC%9D%98%20%EC%82%B6)  |[Pull Request](https://github.com/woowacourse/woowa-writing-3/pull/294) |[포코](https://github.com/devJang)|
 
 ---
+
+<br>
+
+## 👨‍👩‍👦‍👦 스터디
+
+우리는 찾을 것이다. 정답을. 언제나 그랬듯이
+
+[https://github.com/DOG-NO-ANSWER-BROS/find-answer](https://github.com/DOG-NO-ANSWER-BROS/find-answer)
+
+### **기간**
+
+- `2021.04 –`
+
+### 스터디 **목표**
+
+- 개발 도중에 생기는 궁금증을 해결하고 공유한다.
+- 자신의 언어로 지식을 정리한다.
